@@ -155,20 +155,20 @@ fetchData("projects").then(data => {
 });
 
 // <!-- tilt js effect starts -->
-/*VanillaTilt.init(document.querySelectorAll(".tilt"), {
+VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
-});*/
+});
 // <!-- tilt js effect ends -->
 
 
 // pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
-// function fadeOut() {
-//     setInterval(loader, 500);
-// }
-// window.onload = fadeOut;
+ function loader() {
+    document.querySelector('.loader-container').classList.add('fade-out');
+ }
+ function fadeOut() {
+     setInterval(loader, 500);
+ }
+ window.onload = fadeOut;
 // pre loader end
 
 // disable developer mode
